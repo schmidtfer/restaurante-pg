@@ -1,0 +1,100 @@
+.navbar, 
+.container-last{
+    background-color:#006D30;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color:  #FF2422;
+    color:#fff;
+    
+}
+
+#cabecalho .nav .nav-link:hover{
+    color:#fff;
+}
+
+#cabecalho .nav .nav-link {
+    color:#fff;
+}
+
+.navbar-brand:hover{
+    color:#FF2422;
+}
+
+.section-title{
+    font-family:"Playwrite FR Trad", cursive;
+    font-weight: bold;
+    color:#FF2422;
+}
+
+
+#eventos img{
+    max-height: 100vw;
+}
+
+#sobre-o-restaurante{
+    background-color: #CCD3D9;
+}
+
+#eventos, 
+#fale-conosco{
+    background-color: #919191d3;
+}
+
+#cardapio{
+    background-color: #CCD3D9;
+}
+
+.text-colored,
+.container-last{
+    color:#000000;
+    font-weight: bold;
+}
+
+.nav-cardapio .nav-link.active {
+    color:#000000;
+    background-color:  #FF2422;
+}
+ 
+.nav-cardapio .nav-link:hover{
+    color:#000000;
+}
+
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+#fale-conosco button{
+    color:#ffff;
+    background-color:  #FF2422;
+}
+
+
+.tab-pane img{
+    height: 160px;
+}
+
+
+    .carousel-item img {
+        object-fit: cover;
+        max-height:360px;
+    }
+
+
+    @media (max-width:767px) {
+        .carousel-item img {
+            max-height:220px;
+         }
+    }
+
+    @media (max-width:767px) {
+        .tab-pane img {
+            max-height: 180px;
+            max-width: 60%;     
+        }
+    }
